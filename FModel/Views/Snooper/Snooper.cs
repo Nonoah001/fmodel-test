@@ -5,7 +5,7 @@ using System.Threading;
 using System.Windows.Forms;
 using CUE4Parse.UE4.Assets.Exports;
 using FModel.Views.Snooper.Buffers;
-using OpenTK.Graphics.OpenGL4;
+using OpenTK.Graphics.OpenGL3;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Common.Input;
 using OpenTK.Windowing.Desktop;
