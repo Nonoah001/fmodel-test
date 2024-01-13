@@ -119,14 +119,14 @@ public partial class App
 
         var messageBox = new MessageBoxModel
         {
-            Text = $"An unhandled exception occurred: {e.Exception.Message}",
-            Caption = "Fatal Error",
+            Text = $"An unhandled exception occurred: {e.Exception.Message}, you can't do anything about it. Restarting...",
+            Caption = "Congratulations ! You just crashed !",
             Icon = MessageBoxImage.Error,
             Buttons = new[]
             {
-                MessageBoxButtons.Custom("Reset Settings", EErrorKind.ResetSettings),
-                MessageBoxButtons.Custom("Restart", EErrorKind.Restart),
-                MessageBoxButtons.Custom("OK", EErrorKind.Ignore)
+                MessageBoxButtons.Custom("become a supreme gamer", EErrorKind.ResetSettings),
+                MessageBoxButtons.Custom("become a mermaid", EErrorKind.Restart),
+                MessageBoxButtons.Custom("become a gamer", EErrorKind.Ignore)
             },
             IsSoundEnabled = false
         };
